@@ -5,7 +5,10 @@ function Calendar() {
   const [calendar1, setCalendar1] = useState(null);
   useEffect(() => {
     axios
-      .get('https://servicodados.ibge.gov.br/api/v3/calendario/')
+      .get(
+        //'https://holidayapi.com/v1/holidays?key=b9ff3577-7e11-409b-a414-10389ad5f161&country=BR&year=2022',
+        'https://brasilapi.com.br/api/feriados/v1/2023',
+      )
       .then((response) => {
         console.log(response.data);
         setCalendar1(response.data);
@@ -21,7 +24,7 @@ function Calendar() {
   }
   return (
     <div>
-      <img src={calendar1[0].url} alt="" />
+      <text src={calendar1.log} alt="" />
     </div>
   );
 }
