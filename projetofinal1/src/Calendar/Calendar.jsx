@@ -21,7 +21,7 @@ function Calendar() {
   }
   return (
     <div>
-      <img src={calendar1.url} alt="" />
+      <img src={calendar1[0].url} alt="" />
     </div>
   );
 }
