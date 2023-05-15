@@ -1,0 +1,10 @@
+.fraseAlerta{
+  text-align: center;
+}
+
+.borda{
+  border-radius: 20px;
+  padding: 20px;
+  border: solid 2px #fff;
+}
+

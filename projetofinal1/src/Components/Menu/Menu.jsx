@@ -1,9 +1,8 @@
-import './Menu.css';
+import './App.css';
 import { ImHome, ImCalendar, ImCreditCard, ImCart } from 'react-icons/im';
+import React, { Component } from 'react';
 
-import React from 'react';
-
-function Menu() {
+function App() {
   return (
     <ul className="menu">
       <li>
@@ -22,6 +21,8 @@ function Menu() {
       <li>
         <a href="#">
           <ImCreditCard size={30} /> .Promoções
+          <br></br>
+          <br></br>
         </a>
       </li>
 
@@ -35,4 +36,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default App;

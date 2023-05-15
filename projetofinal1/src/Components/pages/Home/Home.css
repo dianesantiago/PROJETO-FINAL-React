@@ -1,0 +1,10 @@
+img{
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  border: solid 2px #fff;
+}
+
+.margem{
+  margin-top: 200px;
+}

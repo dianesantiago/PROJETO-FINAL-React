@@ -1,0 +1,23 @@
+.calendario {
+  color: yellow;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+  list-style-type: none;
+  font-size: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+h1{
+  font-size: 40px;
+
+}
+
+h2{
+  font-size: 80px;
+
+}

@@ -1,0 +1,9 @@
+img{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+div{
+  background-color: black;
+  color: yellow
+}

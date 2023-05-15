@@ -7,7 +7,7 @@ function Calendar() {
     axios
       .get(
         //'https://holidayapi.com/v1/holidays?key=b9ff3577-7e11-409b-a414-10389ad5f161&country=BR&year=2022',
-        'https://brasilapi.com.br/api/feriados/v1/2023',
+        'https://brasilapi.com.br/api/feriados/v1/2020',
       )
       .then((response) => {
         console.log(response.data);
